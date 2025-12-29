@@ -9,10 +9,11 @@ export default function Navbar(){
       </div>
       <div>
         <ul className="flex gap-5">
-          <li><Link>Home</Link></li>
-          <li><Link>About Me</Link></li>
-          <li><Link>Project</Link></li>
-          <li><Link>CV</Link></li>
+          <li><Link to = "/">Home</Link></li>
+          <li><Link to = "/aboutme">About Me</Link></li>
+          <li><Link to = "/project">Project</Link></li>
+          <li><Link to = "/cv">CV</Link></li>
+          <li><Link to = "/contact">Contact Me</Link></li>
         </ul>
       </div>
     </nav>
