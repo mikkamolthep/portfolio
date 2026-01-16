@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function CV() {
   return (
@@ -16,7 +16,7 @@ export default function CV() {
             className="p-2 bg-amber-200 rounded-lg shadow flex items-center gap-2"
           >
             <img
-              src="GitHub.png"
+              src="/GitHub.png"
               alt="github-logo"
               className="w-[25px] h-[25px] object-cover"
             />
@@ -29,7 +29,7 @@ export default function CV() {
             className="p-2 bg-amber-200 rounded-lg shadow flex items-center gap-2"
           >
             <img
-              src="LinkedIn.png"
+              src="/LinkedIn.png"
               alt="linkedin-logo"
               className="w-[25px] h-[25px] rounded-full object-cover"
             />
@@ -40,7 +40,7 @@ export default function CV() {
             className="p-2 bg-amber-200 rounded-lg shadow flex items-center gap-2"
           >
             <img
-              src="Gmail-Logo.png"
+              src="/Gmail-Logo.png"
               alt="gmail-logo"
               className="w-[20px] h-[20px] object-cover"
             />
