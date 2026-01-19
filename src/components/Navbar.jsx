@@ -1,21 +1,33 @@
-import { Link } from "react-router-dom";
+export default function Navbar() {
+  return (
+    <nav className="fixed top-0 left-0 w-full bg-black">
+      <div className="w-full px-6 py-3 flex items-center justify-between">
+        <a href="#home">
+          <img
+            src="/Port-logo.png"
+            alt="Port-logo"
+            className="w-[50px] h-[50px] object-cover"
+          />
+        </a>
 
-export default function Navbar(){
-  return(
-    <nav className="max-w-7xl flex justify-between mx-auto px-6 py-4">
-      <div className="flex">
-        <img src="https://www.placehold.co/50x50" alt="" />
-        <span>Portfolio</span>
-      </div>
-      <div>
-        <ul className="flex gap-5">
-          <li><Link to = "/">Home</Link></li>
-          <li><Link to = "/aboutme">About Me</Link></li>
-          <li><Link to = "/project">Project</Link></li>
-          <li><Link to = "/cv">CV</Link></li>
-          <li><Link to = "/contact">Contact Me</Link></li>
+        <ul className="flex gap-5 flex-nowrap whitespace-nowrap">
+          <li className="transition-all duration-200 hover:underline hover:text-amber-300 hover:scale-105">
+            <a href="#home">Home</a>
+          </li>
+          <li className="transition-all duration-200 hover:underline hover:text-amber-300 hover:scale-105">
+            <a href="#aboutme">About Me</a>
+          </li>
+          <li className="transition-all duration-200 hover:underline hover:text-amber-300 hover:scale-105">
+            <a href="#projects">Projects</a>
+          </li>
+          <li className="transition-all duration-200 hover:underline hover:text-amber-300 hover:scale-105">
+            <a href="#cv">CV</a>
+          </li>
+          <li className="transition-all duration-200 hover:underline hover:text-amber-300 hover:scale-105">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
-  )
+  );
 }

@@ -1,37 +1,37 @@
+import NavBar from '../components/Navbar'
+import Hero from '../components/Hero'
+import AboutMe from '../components/AboutMe'
+import Projects from '../components/Projects'
+import CV from '../components/CV'
+import Contact from '../components/Contact'
+
 export default function Home() {
   return (
-    <section className="min-h-[80vh] flex items-center">
-      <div className="max-w-4xl mx-auto px-6 text-white">
-        <span className="text-gray-400 text-sm tracking-wide uppercase">
-          Hi, I'm Mik
-        </span>
-
-        <h1 className="text-4xl sm:text-5xl font-bold mt-3 mb-6 leading-tight">
-          Junior <strong className="text-amber-300">Full Stack Developer</strong>
-        </h1>
-
-        <p className="text-gray-300 max-w-xl leading-relaxed mb-10">
-          Junior full stack developer with an engineering background.
-          I enjoy building practical web applications and learning
-          how real-world products are developed from frontend to backend.
-        </p>
-
-        <div className="flex gap-4">
-          <a
-            href="/projects"
-            className="px-6 py-3 bg-amber-300 text-black rounded-lg font-medium hover:bg-amber-400 transition"
-          >
-            View Projects
-          </a>
-
-          <a
-            href="/contact"
-            className="px-6 py-3 border border-gray-500 rounded-lg hover:border-amber-300 transition"
-          >
-            Contact Me
-          </a>
-        </div>
+    <>
+      <div className="min-h-screen bg-zinc-950 text-white">
+        <NavBar />
+        
+        <section id='home'>
+          <Hero />
+        </section>
+        <hr className="mx-16 border-gray-700" />
+        <section id='aboutme'>
+          <AboutMe />
+        </section>
+        <hr className="mx-16 border-gray-700" />
+        <section id='projects'>
+          <Projects />
+        </section>
+        <hr className="mx-16 border-gray-700" />
+        <section id='cv'>
+          <CV />
+        </section>
+        <hr className="mx-16 border-gray-700" />
+        <section id='contact'>
+          <Contact />
+        </section>
+        <hr className="py-5 mx-16 border-gray-700" />
       </div>
-    </section>
-  );
+    </>
+  )
 }
