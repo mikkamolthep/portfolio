@@ -4,21 +4,18 @@ export default function AboutMe() {
       <h1 className="text-4xl font-bold mb-6">About Me</h1>
 
       <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-        I'm Mik, a junior full stack web developer with an engineering
-        background and hands-on working experience.
+        I'm Mik, a junior full-stack web developer with an engineering
+        background and hands-on professional experience.
       </p>
 
       <p className="text-gray-400 mb-6 leading-relaxed">
-        I started my career in engineering roles where I worked with real-world
-        processes, problem-solving, and teamwork. Later, I transitioned into
-        web development and discovered my passion for building practical web
-        applications that people can actually use.
+        I previously worked in an R&D role related to motorcycle seat materials,
+        focusing on testing, analysis, and process improvement.
       </p>
 
       <p className="text-gray-400 mb-10 leading-relaxed">
-        I enjoy working across both frontend and backend, understanding how
-        systems connect together, and continuously improving my skills through
-        real projects.
+        This experience helped me build a structured approach to
+        problem-solving, which I now apply to my web development projects.
       </p>
 
       <div>
