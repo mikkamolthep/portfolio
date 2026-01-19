@@ -5,7 +5,7 @@ export default function Projects() {
 
       <p className="text-gray-400 max-w-2xl mb-12">
         A selection of projects I've worked on, including team projects and solo
-        applications that demonstrate my skills in full stack web development.
+        applications.
       </p>
 
       <div className="grid gap-8 sm:grid-cols-2">

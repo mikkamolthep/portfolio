@@ -12,9 +12,9 @@ export default function Hero() {
         </h1>
 
         <p className="text-gray-300 max-w-xl leading-relaxed mb-10">
-          Junior full stack developer with an engineering background. I enjoy
-          building practical web applications and learning how real-world
-          products are developed from frontend to backend.
+          Junior full-stack developer with an engineering background. I would
+          like to build practical web applications and learn how products are
+          developed from frontend to backend.
         </p>
 
         <div className="flex gap-4">
