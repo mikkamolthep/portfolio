@@ -5,7 +5,7 @@ import AboutMe from "./views/AboutMe";
 import Project from "./views/Project";
 import CV from "./views/CV";
 import Contact from "./views/Contact";
-
+// แก้ชื่อไฟล์ 
 const router = createBrowserRouter([
   {
     path: "/",
