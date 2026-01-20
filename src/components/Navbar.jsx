@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black">
+    <nav className="fixed top-0 left-0 w-full bg-black z-50">
       <div className="w-full px-6 py-3 flex items-center justify-between">
-        <a href="#home">
+        <a href="#home" className="hidden md:block">
           <img
             src="/Port-logo.png"
             alt="Port-logo"

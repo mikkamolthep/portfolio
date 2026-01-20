@@ -14,23 +14,23 @@ export default function Home() {
         <section id='home'>
           <Hero />
         </section>
-        <hr className="mx-16 border-gray-700" />
+        <hr className="border-gray-700 mx-4 sm:mx-8 md:mx-16" />
         <section id='aboutme'>
           <AboutMe />
         </section>
-        <hr className="mx-16 border-gray-700" />
+        <hr className="border-gray-700 mx-4 sm:mx-8 md:mx-16" />
         <section id='projects'>
           <Projects />
         </section>
-        <hr className="mx-16 border-gray-700" />
+        <hr className="border-gray-700 mx-4 sm:mx-8 md:mx-16" />
         <section id='cv'>
           <CV />
         </section>
-        <hr className="mx-16 border-gray-700" />
+        <hr className="border-gray-700 mx-4 sm:mx-8 md:mx-16" />
         <section id='contact'>
           <Contact />
         </section>
-        <hr className="py-5 mx-16 border-gray-700" />
+        <hr className="py-5 border-gray-700 mx-4 sm:mx-8 md:mx-16" />
       </div>
     </>
   )

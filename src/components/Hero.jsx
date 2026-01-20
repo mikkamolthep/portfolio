@@ -17,7 +17,7 @@ export default function Hero() {
           developed from frontend to backend.
         </p>
 
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row gap-4">
           <a
             href="#projects"
             className="px-6 py-3 bg-amber-300 text-black rounded-lg font-medium transition-all duration-200 hover:bg-amber-400 hover:scale-105"

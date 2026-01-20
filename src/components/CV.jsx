@@ -16,7 +16,15 @@ export default function CV() {
           developed from frontend to backend.
         </p>
 
-        <div className="flex flex-wrap gap-3 mt-4">
+        <div className="flex flex-col sm:flex-row gap-4 mt-4">
+          <a
+            href="/CV_Kamolthep_Palee.pdf"
+            download
+            className="p-2 bg-amber-300 rounded-lg shadow flex items-center gap-2 transition-all duration-200 hover:bg-amber-400 hover:scale-105"
+          >
+            <span className="text-black font-bold">Download CV</span>
+          </a>
+
           <a
             href="https://github.com/mikkamolthep?tab=repositories"
             target="_blank"

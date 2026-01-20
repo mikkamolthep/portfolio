@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <section className="max-w-4xl mx-auto px-6 py-20 text-white">
+    <section className="max-w-4xl mx-auto px-6 py-20 text-white z-0">
       <h1 className="text-4xl font-bold mb-6">Projects</h1>
 
       <p className="text-gray-400 max-w-2xl mb-12">
@@ -22,7 +22,7 @@ export default function Projects() {
             Role: Full Stack Developer · Team Project
           </p>
 
-          <div className="flex gap-3 flex-wrap">
+          <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <a
               href="https://project-promptprint-react-xi.vercel.app"
               target="_blank"
@@ -31,21 +31,21 @@ export default function Projects() {
               Live Demo
             </a>
 
-            {/* <a
+            <a
               href="https://github.com/ThJuang2025/project-promptprint-react.git"
               target="_blank"
               className="px-4 py-2 border border-gray-600 rounded-lg text-sm font-semibold hover:border-amber-300 transition"
             >
               Frontend
-            </a> */}
+            </a>
 
-            {/* <a
+            <a
               href="https://github.com/ThJuang2025/project-promptprint-express.git"
               target="_blank"
               className="px-4 py-2 border border-gray-600 rounded-lg text-sm font-semibold hover:border-amber-300 transition"
             >
               Backend
-            </a> */}
+            </a>
           </div>
         </div>
 
@@ -62,7 +62,7 @@ export default function Projects() {
             Role: Frontend Developer · Solo Project · In Progress
           </p>
 
-          <div className="flex gap-3">
+          <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <a
               href="https://project-promptprint-react-xi.vercel.app"
               target="_blank"
@@ -70,21 +70,21 @@ export default function Projects() {
             >
               Live Demo
             </a>
-            {/* <a
+            <a
               href="https://github.com/your-username/room-finder-frontend"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 border border-gray-600 rounded-lg text-sm font-semibold hover:border-amber-300 transition"
             >
               Frontend
-            </a> */}
-            {/* <a
+            </a>
+            <a
               href="https://github.com/ThJuang2025/project-promptprint-express.git"
               target="_blank"
               className="px-4 py-2 border border-gray-600 rounded-lg text-sm font-semibold hover:border-amber-300 transition"
             >
               Backend
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
