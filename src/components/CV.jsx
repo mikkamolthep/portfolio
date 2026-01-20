@@ -69,19 +69,21 @@ export default function CV() {
 
       <div className="mb-6">
         <h3 className="text-xl font-semibold mb-2 text-amber-300 underline pt-5">
-          TECHNICAL SKILLS
+          SKILLS
         </h3>
         <ul className="list-disc pl-6 space-y-1">
           <li>
-            <strong>Front-End :</strong> HTML, CSS, JavaScript (ES6+), React,
-            Tailwind CSS
+            <strong>Technology :</strong> HTML, CSS, JavaScript, React,
+            Tailwind CSS ,Node.js, Express.js
           </li>
           <li>
-            <strong>Back-End :</strong> Node.js, Express.js, RESTful APIs,
-            PostgreSQL, MongoDB
+            <strong>Database :</strong> PostgreSQL, MongoDB
           </li>
           <li>
             <strong>Tools :</strong> Git, GitHub, VS Code, Postman
+          </li>
+          <li>
+            <strong>Collaboration :</strong> Teamwork, Problem-solving, Open to feedback
           </li>
         </ul>
       </div>
@@ -141,17 +143,6 @@ export default function CV() {
             Prepared technical documentation and reports to support product
             development and continuous improvement initiatives.
           </li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold mb-2 text-amber-300 underline pt-5">
-          SOFT SKILLS
-        </h3>
-        <ul className="list-disc pl-6 text-gray-300">
-          <li className="py-1">Teamwork</li>
-          <li className="py-1">Problem-solving</li>
-          <li className="py-1">Open to feedback</li>
         </ul>
       </div>
     </div>
