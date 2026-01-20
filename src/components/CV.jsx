@@ -118,7 +118,7 @@ export default function CV() {
           Bachelor of Engineering – Materials Engineering (Polymers)
         </h4>
         <span className="text-sm text-gray-500">2017 – 2019</span>
-        <p>Rajamangala University of Technology</p>
+        <p>Rajamangala University of Technology Thanyaburi</p>
       </div>
 
       <div className="mb-6">
