@@ -24,7 +24,7 @@ export default function Projects() {
 
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <a
-              href="https://project-promptprint-react-xi.vercel.app"
+              href="https://project-promptprint-react.vercel.app"
               target="_blank"
               className="px-4 py-2 bg-amber-300 text-black rounded-lg text-sm font-semibold hover:bg-amber-400 transition"
             >
@@ -64,14 +64,14 @@ export default function Projects() {
 
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <a
-              href="https://project-promptprint-react-xi.vercel.app"
+              href="https://staynest-beta.vercel.app"
               target="_blank"
               className="px-4 py-2 bg-amber-300 text-black rounded-lg text-sm font-semibold hover:bg-amber-400 transition"
             >
               Live Demo
             </a>
             <a
-              href="https://github.com/your-username/room-finder-frontend"
+              href="https://github.com/mikkamolthep/staynest.git"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 border border-gray-600 rounded-lg text-sm font-semibold hover:border-amber-300 transition"
@@ -79,7 +79,7 @@ export default function Projects() {
               Frontend
             </a>
             <a
-              href="https://github.com/ThJuang2025/project-promptprint-express.git"
+              href="https://github.com/mikkamolthep/staynest.git"
               target="_blank"
               className="px-4 py-2 border border-gray-600 rounded-lg text-sm font-semibold hover:border-amber-300 transition"
             >
