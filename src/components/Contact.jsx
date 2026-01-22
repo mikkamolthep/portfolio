@@ -40,9 +40,9 @@ export default function Contact() {
             className="p-2 bg-amber-200 rounded-lg shadow flex items-center gap-2 transition-all duration-200 hover:bg-amber-300 hover:scale-105"
           >
             <img
-              src="/Gmail-Logo.png"
+              src="/mail-logo.png"
               alt="gmail-logo"
-              className="w-[20px] h-[20px] object-cover"
+              className="w-[30px] h-[30px] object-cover"
             />
             <span className="text-black font-bold">E-mail</span>
           </a>
